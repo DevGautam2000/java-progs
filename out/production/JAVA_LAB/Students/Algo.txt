@@ -1,0 +1,48 @@
+ALGORITHM(Student):
+
+Algorithm Name: Implementation of importing a package
+Algorithm Description: Java program to import a package in a class in different package
+
+VARIABLES:
+
+Input Variable: (compile time input to all variables)
+Output Variable: privateVar, protectedVar, noModifierVar, publicVar
+
+STEPS:
+
+0. Start
+1. Create a package Students
+2. Create a class Student  with data members as:
+        private final String name
+        private final int regNo
+        private final char section
+
+3.Override the toString() to get student details
+4. In main() do
+5. Student gautam = new Student("CSE", 4, 8,
+                   "Gautam Chandra Saha", 201900099, 'A') // instantiation of Student object
+6. Display the student details
+7. Stop
+
+
+ALGORITHM(Departments):
+
+Algorithm Name: Implementation of importing a package
+Algorithm Description: Java program to import a package in a class in different package
+
+VARIABLES:
+
+Input Variable: (compile time input to all variables)
+Output Variable: privateVar, protectedVar, noModifierVar, publicVar
+
+STEPS:
+
+0. Start
+1. Create a package engineering
+2. Create a class Departments  with data members as:
+        private final String department
+        private final int sem
+        private final int totalSubjects
+
+3. getters for Departments class variables
+4. Stop

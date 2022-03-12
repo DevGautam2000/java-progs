@@ -1,0 +1,109 @@
+ALGORITHM(MainClass):
+
+Algorithm Name: Validation of Access protection
+Algorithm Description: Java program to validate access protection table
+
+VARIABLES:
+
+Input Variable: (compile time input to all variables)
+Output Variable: privateVar, protectedVar, noModifierVar, publicVar
+
+STEPS:
+
+0. Start
+1. Create a base package accessprotection
+2. Create a sub package SamePackage in accessprotection
+3. Create a MainClass with data members as:
+        public String publicVar
+        protected String protectedVar
+        String noModifierVar
+        private String privateVar
+
+    and method changeVars() to modify the variables accessible
+
+4. In main() do
+5. MainClass mainClass = new MainClass() // instantiation of MainClass object
+6. mainClass.changeVars() // modify the variables accessible
+7. Display variables modified or not
+8. Stop
+
+ALGORITHM(SubClass):
+
+Algorithm Name: Validation of Access protection
+Algorithm Description: Java program to validate access protection table
+
+VARIABLES:
+
+Input Variable: (compile time input to all variables)
+Output Variable: privateVar, protectedVar, noModifierVar, publicVar
+
+STEPS:
+
+0. Start
+1. Create a SubClass that extends MainClass in SamePackage
+2. In main() do
+3. SubClass subClass = new SubClass() // instantiation of SubClass object
+4. subClass.changeVars() // override and modify the variables accessible
+5. Display variables modified or not
+6. Stop
+
+
+ALGORITHM(NonSubClass):
+
+Algorithm Name: Validation of Access protection
+Algorithm Description: Java program to validate access protection table
+
+VARIABLES:
+
+Input Variable: (compile time input to all variables)
+Output Variable: privateVar, protectedVar, noModifierVar, publicVar
+
+STEPS:
+
+0. Start
+1. Create a NonSubClass in SamePackage
+2. In main() do
+3. NonSubClass nonSubClass = new NonSubClass() // instantiation of NonSubClass object
+4. nonSubClass.changeVars() // override and modify the variables accessible
+5. Display variables modified or not
+6. Stop
+
+ALGORITHM(NonSubClass):
+
+Algorithm Name: Validation of Access protection
+Algorithm Description: Java program to validate access protection table
+
+VARIABLES:
+
+Input Variable: (compile time input to all variables)
+Output Variable: privateVar, protectedVar, noModifierVar, publicVar
+
+STEPS:
+
+0. Start
+1. Create a NonSubClass in DifferentPackage
+2. In main() do
+3. NonSubClass nonSubClass = new NonSubClass() // instantiation of NonSubClass object
+4. Modify the variables accessible by instantiating a MainClass object
+5. Display variables modified or not
+6. Stop
+
+ALGORITHM(SubClass):
+
+Algorithm Name: Validation of Access protection
+Algorithm Description: Java program to validate access protection table
+
+VARIABLES:
+
+Input Variable: (compile time input to all variables)
+Output Variable: privateVar, protectedVar, noModifierVar, publicVar
+
+STEPS:
+
+0. Start
+1. Create a SubClass that extends MainClass in DifferentPackage
+2. In main() do
+3. SubClass subClass = new SubClass() // instantiation of SubClass object
+4. subClass.changeVars() // override and modify the variables accessible
+5. Display variables modified or not
+6. Stop
